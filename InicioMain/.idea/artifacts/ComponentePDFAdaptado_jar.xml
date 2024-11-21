@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ComponentePDFAdaptado:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ComponentePDFAdaptado_jar</output-path>
+    <root id="archive" name="ComponentePDFAdaptado.jar">
+      <element id="module-output" name="ComponentePDFAdaptado" />
+      <element id="module-output" name="Interfaces" />
+      <element id="library" level="project" name="Maven: com.eis:ComponentePDF:1.0-SNAPSHOT" />
+    </root>
+  </artifact>
+</component>

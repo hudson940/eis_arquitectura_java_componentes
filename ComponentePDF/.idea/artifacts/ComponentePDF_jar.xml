@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ComponentePDF:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ComponentePDF_jar</output-path>
+    <root id="archive" name="ComponentePDF.jar">
+      <element id="module-output" name="ComponentePDF" />
+    </root>
+  </artifact>
+</component>
