@@ -11,12 +11,12 @@ public class Main {
 
     public static Documento generarDocumentos(){
         Documento documento;
-
-        documento=new DocumentoTexto();
+        var factory = new FactoryDocument();
+        documento= factory.getDocument("Text");
         documento.setContenido("...texto...");
-        documento=new DocumentoHtmlImp();
+        documento= factory.getDocument("HTML");
         documento.setContenido("<HMTL></HMTL>");
-        documento=new DocumentoPdfImp();
+        documento= factory.getDocument("PDF");
         documento.setContenido("...PDF...PDF...PDF...");
         return documento;
     }
